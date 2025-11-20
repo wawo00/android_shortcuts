@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Shortcuts</string>
+    
+    <!-- Shortcut labels -->
+    <string name="shortcut_receive_short">收款码</string>
+    <string name="shortcut_receive_long">显示收款码</string>
+    <string name="shortcut_pay_short">付款码</string>
+    <string name="shortcut_pay_long">显示付款码</string>
+    <string name="shortcut_other_short">其他</string>
+    <string name="shortcut_other_long">其他功能</string>
+    
+    <!-- Activity labels -->
+    <string name="main_title">Android Shortcuts Demo</string>
+    <string name="main_description">长按应用图标查看快捷方式</string>
+    <string name="pay_code_title">付款码</string>
+    <string name="receive_code_title">收款码</string>
+    <string name="other_title">其他</string>
+    <string name="loading">加载中...</string>
+</resources>
