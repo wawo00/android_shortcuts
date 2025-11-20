@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="receive_code"
+        android:enabled="true"
+        android:icon="@drawable/ic_receive"
+        android:shortcutShortLabel="@string/shortcut_receive_short"
+        android:shortcutLongLabel="@string/shortcut_receive_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.androidshortcuts"
+            android:targetClass="com.example.androidshortcuts.ShowReceiveCodeActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="pay_code"
+        android:enabled="true"
+        android:icon="@drawable/ic_pay"
+        android:shortcutShortLabel="@string/shortcut_pay_short"
+        android:shortcutLongLabel="@string/shortcut_pay_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.androidshortcuts"
+            android:targetClass="com.example.androidshortcuts.ShowPayCodeActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="other"
+        android:enabled="true"
+        android:icon="@drawable/ic_other"
+        android:shortcutShortLabel="@string/shortcut_other_short"
+        android:shortcutLongLabel="@string/shortcut_other_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.androidshortcuts"
+            android:targetClass="com.example.androidshortcuts.OtherActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>
